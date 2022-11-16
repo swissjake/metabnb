@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <section className="bg-[#1D1D1E] pt-[44px] md:pt-[63px] pb-[32px]">
       <DefaultLayout>
-        <div className="grid md:grid-cols-2 lg:grid-cols-9 text-[#F1F3F9]">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-9 text-[#F1F3F9]">
           <div className=" lg:col-span-3">
             <div
               onClick={() => {

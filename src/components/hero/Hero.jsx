@@ -11,7 +11,9 @@ const Hero = () => {
     <section>
       <DefaultLayout>
         <div className="flex flex-col md:flex-row md:items-center mt-[60px] md:mt-[60px] md:justify-between">
-          <div className="w-full lg:max-w-[646px] md:w-[55%] text-[#434343] text-center md:text-start lg:mx-0">
+          <div
+            className={` ${styles.container} w-full lg:max-w-[646px] md:w-[55%] text-[#434343] text-center md:text-start lg:mx-0`}
+          >
             <header className="text-[1.5rem] md:text-[2rem] lg:text-[3.5rem] w-full tracking-[-0.02em] ">
               Rent a <span className="text-[#A02279] font-bold">Place </span>
               away from
@@ -39,7 +41,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:justify-center gap-x-[8px] mt-[32px] md:mt-[57px] lg:mt-0 md:w-[40%] ">
+          <div
+            className={`${styles.image} flex md:justify-center gap-x-[8px] mt-[32px] md:mt-[57px] lg:mt-0 md:w-[40%] `}
+          >
             <div
               className={`mt-[100px] flex flex-col gap-[8px]  ${styles.first} `}
             >

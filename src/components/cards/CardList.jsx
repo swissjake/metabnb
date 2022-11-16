@@ -10,7 +10,9 @@ const CardList = () => {
         <header className=" text-[1.5rem] md:text-[2rem] lg:text-[3rem] text-[#000] font-[700] text-center mb-[45px]">
           Inspiration for your next adventure
         </header>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-[24px] gap-x-[24px] justify-items-center">
+        <div
+          className={`grid sm:grid-cols-2 lg:grid-cols-4 gap-y-[24px] lg:gap-x-[24px] xl:gap-x-0 justify-items-center`}
+        >
           {data?.map((item, i) => (
             <HomeCards key={i} img={item} />
           ))}

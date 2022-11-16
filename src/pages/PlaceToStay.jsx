@@ -14,7 +14,7 @@ const places = [
 ];
 const PlaceToStay = () => {
   return (
-    <section className="mt-[180px]">
+    <section className="mt-[100px]">
       <DefaultLayout>
         <div className="flex items-center justify-between lg:justify-start mb-[54px] lg:mb-[64px]">
           {/* big screen */}

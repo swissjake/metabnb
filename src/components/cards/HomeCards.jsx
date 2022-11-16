@@ -11,7 +11,7 @@ const HomeCards = ({ img }) => {
         className="border border-[#D7D7D7] rounded-[15px] w-full lg:max-w-[292px] transition-all duration-200 xl:hover:scale-105 ease-in-out"
       >
         <div className="p-[16px]">
-          <img className="w-[100%]" src={img} alt="images" loading="lazy" />
+          <img className="w-[100%]" src={img} alt="images" />
         </div>
         <div className="text-[#434343] px-[16px] pb-[16px] space-y-[10px]">
           <div className="flex items-center justify-between">

@@ -6,8 +6,8 @@ import ExtendedNav from "./ExtendedNav";
 const navItems = [
   { name: "Home", ref: "/" },
   { name: "Place to stay", ref: "/placeToStay" },
-  { name: "NFTs", ref: "/" },
-  { name: "Community", ref: "/" },
+  { name: "NFTs", ref: "" },
+  { name: "Community", ref: "" },
 ];
 const Navbar = ({ openModal, setOpenModal }) => {
   const [navOpen, setNavOpen] = useState(false);
