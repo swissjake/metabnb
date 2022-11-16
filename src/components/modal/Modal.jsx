@@ -1,8 +1,8 @@
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
-import arrow from "../../assets/modal/arrow.svg";
-import connect from "../../assets/modal/connect.svg";
-import mask from "../../assets/modal/mask.svg";
+import arrow from "../../assets/modal/arrow.png";
+import connect from "../../assets/modal/connect.png";
+import mask from "../../assets/modal/mask.png";
 
 const Modal = ({ openModal, setOpenModal }) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import nft from "../../assets/nfts/nfts.svg";
+import nft from "../../assets/nfts/nfts.png";
 import DefaultLayout from "../../layouts/DefaultLayout";
 
 const Nfts = () => {

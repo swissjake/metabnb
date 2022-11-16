@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillStar } from "react-icons/ai";
+import star from "../../assets/inspiration/star.png";
 
 const HomeCards = ({ img }) => {
   return (
@@ -26,7 +26,7 @@ const HomeCards = ({ img }) => {
             {Array(5)
               .fill(null)
               .map((_, i) => (
-                <AiFillStar className="text-[#A02279] w-3 h-3" />
+                <img src={star} alt={star} />
               ))}
           </div>
         </div>

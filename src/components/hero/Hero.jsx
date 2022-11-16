@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "../../assets/heroImages/img1.svg";
-import img2 from "../../assets/heroImages/img2.svg";
-import img3 from "../../assets/heroImages/img3.svg";
-import img4 from "../../assets/heroImages/img4.svg";
+import img1 from "../../assets/heroImages/img1.png";
+import img2 from "../../assets/heroImages/img2.png";
+import img3 from "../../assets/heroImages/img3.png";
+import img4 from "../../assets/heroImages/img4.png";
 import DefaultLayout from "../../layouts/DefaultLayout";
 import styles from "./Hero.module.css";
 

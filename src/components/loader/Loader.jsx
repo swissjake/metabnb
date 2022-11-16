@@ -1,5 +1,5 @@
 import React from "react";
-import mask from "../../assets/modal/mask.svg";
+import mask from "../../assets/modal/mask.png";
 import styles from "./Loader.module.css";
 
 const Loader = () => {
