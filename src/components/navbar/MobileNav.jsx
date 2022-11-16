@@ -1,6 +1,5 @@
 import React from "react";
 import { AiOutlineCloseCircle, AiOutlineMenu } from "react-icons/ai";
-import { Navigate } from "react-router-dom";
 import logo from "../../assets/images/logo.svg";
 import DefaultLayout from "../../layouts/DefaultLayout";
 
