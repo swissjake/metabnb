@@ -29,7 +29,7 @@ const PlaceToStay = () => {
           {/* small screeen */}
           <div>
             <select
-              className="py-[14px] select__tag bg-white px-[10px] mb-[20px] sm:mb-0 h-[48px] md:px-[20px] w-[130px] outline-none border border-[#B4B4B4] rounded-[8px] lg:hidden"
+              className="py-[14px] select__tag bg-white px-[10px] md:w-[200px] mb-[20px] sm:mb-0 h-[48px] md:px-[20px] w-[130px] outline-none border border-[#B4B4B4] rounded-[8px] lg:hidden"
               name=""
               id=""
             >
