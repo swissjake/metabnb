@@ -41,7 +41,7 @@ const MobileNav = ({
                 setNavOpen(!navOpen);
                 navigate(item.ref);
               }}
-              className=" cursor-pointer"
+              className={` cursor-pointer`}
               key={i}
             >
               {item.name}
@@ -60,7 +60,7 @@ const MobileNav = ({
             style={{
               background: `linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)`,
             }}
-            className="h-[48px] px-[27px] text-[1rem] rounded-[10px] text-white "
+            className="h-[48px] px-[27px] text-[20px] rounded-[10px] text-white "
           >
             Connect Wallet
           </button>

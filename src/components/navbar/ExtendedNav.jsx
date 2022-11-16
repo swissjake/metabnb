@@ -5,11 +5,10 @@ import styles from "./Navbar.module.css";
 
 const ExtendedNav = ({
   navItems,
-  navOpen,
-  setNavOpen,
   openModal,
   setOpenModal,
   navigate,
+  location,
 }) => {
   return (
     <>
@@ -28,7 +27,9 @@ const ExtendedNav = ({
             {navItems?.map((item, i) => (
               <li
                 onClick={() => navigate(item.ref)}
-                className={`${styles.li} cursor-pointer`}
+                className={`${styles.li} ${
+                  location.pathname === item.ref && "text-[#A02279]"
+                } cursor-pointer`}
                 key={i}
               >
                 {item.name}

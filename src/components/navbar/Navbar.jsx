@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import ExtendedNav from "./ExtendedNav";
 
@@ -13,7 +13,7 @@ const Navbar = ({ openModal, setOpenModal }) => {
   const [navOpen, setNavOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
   const navigate = useNavigate();
-
+  const location = useLocation();
   React.useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) setSticky(true);
@@ -38,11 +38,10 @@ const Navbar = ({ openModal, setOpenModal }) => {
         />
         <ExtendedNav
           navItems={navItems}
-          navOpen={navOpen}
-          setNavOpen={setNavOpen}
           openModal={openModal}
           setOpenModal={setOpenModal}
           navigate={navigate}
+          location={location}
         />
       </div>
     </>
