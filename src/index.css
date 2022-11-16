@@ -21,3 +21,9 @@ code {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+@media (min-width:321px) and (max-width:480px){
+  .select__tag{
+      margin-bottom: 0;
+  }
+}

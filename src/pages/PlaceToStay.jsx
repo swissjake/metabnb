@@ -29,7 +29,7 @@ const PlaceToStay = () => {
           {/* small screeen */}
           <div>
             <select
-              className="py-[14px] bg-white px-[10px] h-[48px] md:px-[20px] w-[130px] outline-none border border-[#B4B4B4] rounded-[8px] lg:hidden"
+              className="py-[14px] select__tag bg-white px-[10px] mb-[20px] sm:mb-0 h-[48px] md:px-[20px] w-[130px] outline-none border border-[#B4B4B4] rounded-[8px] lg:hidden"
               name=""
               id=""
             >
@@ -41,7 +41,7 @@ const PlaceToStay = () => {
             </select>
           </div>
 
-          <div className="flex items-center justify-between  mt-[20px]   md:max-w-[161px] h-[48px] px-[10px] md:px-[20px] lg:px-[12px] border border-[#B4B4B4] rounded-[8px]">
+          <div className="flex items-center justify-between  md:max-w-[161px] h-[48px] px-[10px] md:px-[20px] lg:px-[12px] border border-[#B4B4B4] rounded-[8px]">
             <span>Location</span>
             <img className="ml-[40px]" src={location} alt="location" />
           </div>

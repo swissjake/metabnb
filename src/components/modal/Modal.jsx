@@ -16,7 +16,7 @@ const Modal = ({ openModal, setOpenModal }) => {
           onClick={(e) => e.stopPropagation()}
           className="w-[600px] bg-white rounded-[16px]"
         >
-          <div className="flex w-full items-center justify-between py-[24px] px-[32px]">
+          <div className="flex w-full items-center justify-between py-[24px] px-[16px] sm:px-[32px]">
             <header className="font-[700] text-[1rem] md:text-[1.5rem] text-[#333333]">
               Connect Wallet
             </header>
@@ -27,7 +27,7 @@ const Modal = ({ openModal, setOpenModal }) => {
             />
           </div>
           <hr className="border border-[#CFD8DC]" />
-          <div className="p-[32px]">
+          <div className=" p-[16px] sm:p-[32px]">
             <p className="text-[#333333] text-[0.8rem] md:text-[1rem]">
               Choose your preferred wallet:
             </p>
