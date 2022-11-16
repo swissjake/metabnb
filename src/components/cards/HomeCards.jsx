@@ -9,7 +9,7 @@ const HomeCards = ({ img }) => {
         style={{
           background: `linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%)`,
         }}
-        className="border border-[#D7D7D7] rounded-[15px] max-w-[292px]"
+        className="border border-[#D7D7D7] rounded-[15px] max-w-[292px] transition-all duration-200 xl:hover:scale-105 ease-in-out"
       >
         <div className="p-[16px]">
           <img src={img} alt="" />

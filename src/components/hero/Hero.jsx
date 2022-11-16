@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section>
       <DefaultLayout>
-        <div className="flex flex-col md:flex-row md:items-center mt-[133px] md:mt-[180px] md:justify-between">
+        <div className="flex flex-col md:flex-row md:items-center mt-[100px] md:mt-[180px] md:justify-between">
           <div className="w-full lg:max-w-[646px] md:w-[60%] text-[#434343] text-center md:text-start lg:mx-0">
             <header className="text-[1.5rem] md:text-[2.5rem] lg:text-[3.5rem] w-full tracking-[-0.02em] ">
               Rent a <span className="text-[#A02279] font-bold">Place </span>
