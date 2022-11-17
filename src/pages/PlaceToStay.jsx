@@ -33,8 +33,8 @@ const PlaceToStay = () => {
               name=""
               id=""
             >
-              {places?.map((item, i) => (
-                <option className="py-[14px]" key={i} value="volvo">
+              {places?.map((item, index) => (
+                <option className="py-[14px]" key={index} value="volvo">
                   {item}
                 </option>
               ))}
